@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper3"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/ahlan"-->
+<!--        android:textSize="20sp"-->
+<!--        android:typeface="serif"-->
+<!--        android:textColor="@android:color/black"/>-->
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/kaligrafi"
+        android:contentDescription="@string/kaligrafi_qur_an" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/quran2"
+        android:contentDescription="@string/logo_qur_an" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/icon_quran2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/baca_quran"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif"
+        android:textColor="@android:color/white"
+        android:text="@string/hadits_quran"
+        tools:ignore="SmallSp" />
+
+</LinearLayout>

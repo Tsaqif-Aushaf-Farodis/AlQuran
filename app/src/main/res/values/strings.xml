@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Al-Qur\'an</string>
+    <string name="hadits_quran">”Bacalah Al-Qur’an, karena sesungguhnya Al Qur’an itu akan datang pada Hari Kiamat sebagai penolong bagi para pembacanya”. \n(HR. Muslim no. 804)</string>
+    <string name="kaligrafi_qur_an">Kaligrafi Qur\'an</string>
+    <string name="logo_qur_an">Logo Qur\'an</string>
+    <string name="btn_quran_mushaf">Qur\'an Mushaf</string>
+    <string name="btn_quran_per_ayat">Qur\'an Per Ayat</string>
+    <string name="btn_detail_surat">Detail Surat</string>
+    <string name="btn_pencarian">Pencarian</string>
+    <string name="btn_bookmarks">Bookmarks</string>
+    <string name="title_surah">Title Surah</string>
+    <string name="baca_quran">Baca Qur\'an</string>
+    <string name="ahlan">اَهْلًا وَ سَهْلًا يَا صَاحِبُ القُرآنِ</string>
+    <string name="icon_quran">Icon Qur\'an</string>
+</resources>
